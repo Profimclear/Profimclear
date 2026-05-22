@@ -1,45 +1,118 @@
-
 <!DOCTYPE html>
 <html lang="hu">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Profimclear</title>
+<title>Profi M Clear Kft.</title>
 
 <style>
-body {font-family: Arial; margin:0; background:#f4f4f4; text-align:center;}
-header {background:#0a7cff; color:white; padding:30px;}
-.btn {
-display:inline-block;
-padding:15px 25px;
-margin:10px;
-background:#28a745;
-color:white;
-text-decoration:none;
-border-radius:8px;
-font-size:18px;
+body{
+ margin:0;
+ font-family:Arial, sans-serif;
+ background:linear-gradient(135deg,#020b13,#0b2a44);
+ color:white;
+ text-align:center;
+}
+
+.hero{
+ min-height:100vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ padding:20px;
+}
+
+.card{
+ max-width:900px;
+ border:2px solid #d4af37;
+ border-radius:25px;
+ padding:30px;
+ background:rgba(0,0,0,0.5);
+ box-shadow:0 0 30px rgba(212,175,55,0.4);
+}
+
+h1{
+ font-size:40px;
+ margin:0;
+}
+
+h1 span{
+ color:#d4af37;
+}
+
+.tagline{
+ margin:20px 0;
+ font-style:italic;
+ color:#f5df91;
+}
+
+.services{
+ margin:25px 0;
+}
+
+.service{
+ margin:10px;
+ padding:10px;
+ border:1px solid #d4af37;
+ border-radius:10px;
+ display:inline-block;
+}
+
+.btn{
+ display:inline-block;
+ margin:10px;
+ padding:12px 25px;
+ background:#d4af37;
+ color:black;
+ border-radius:25px;
+ text-decoration:none;
+ font-weight:bold;
+}
+
+.contact{
+ margin-top:20px;
+}
+
+.footer{
+ margin-top:20px;
+ color:#d4af37;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>Profimclear</h1>
-<p>Takarítás • Irodák • Kertek</p>
-</header>
+<div class="hero">
+<div class="card">
 
-<h2>Kapcsolat</h2>
+<h1>Profi <span>M Clear</span></h1>
 
-<a class="btn" href="mailto:marcsi.dancs61@gmail.com">
-📧 Ajánlatkérés
-</a>
+<div class="tagline">
+„Tisztaság, ami látszik. Minőség, amit érez.”
+</div>
 
-<br>
+<div class="services">
+<div class="service">Apartman takarítás</div>
+<div class="service">Iroda takarítás</div>
+<div class="service">Fertőtlenítés</div>
+<div class="service">Kertészet</div>
+</div>
 
-<a class="btn" href="tel:+36300000000">
-📞 Hívás
-</a>
+<a class="btn" href="mailto:marcsi.dancs61@gmail.com">Árajánlat</a>
+<a class="btn" href="tel:+36705085073">Hívás</a>
+
+<div class="contact">
+📍 1141 Budapest, Szugló utca 82.<br>
+📞 +36 70 508 50 73<br>
+📧 marcsi.dancs61@gmail.com
+</div>
+
+<div class="footer">
+Takarítás felsőfokon
+</div>
+
+</div>
+</div>
 
 </body>
 </html>
